@@ -1,0 +1,94 @@
+Error while importing sbt project:
+
+Getting org.scala-sbt sbt 1.2.1  (this may take some time)...
+
+:: problems summary ::
+:::: WARNINGS
+module not found: org.scala-sbt#sbt;1.2.1
+
+==== local: tried
+
+C:\Users\s138093\.ivy2\local\org.scala-sbt\sbt\1.2.1\ivys\ivy.xml
+
+-- artifact org.scala-sbt#sbt;1.2.1!sbt.jar:
+
+C:\Users\s138093\.ivy2\local\org.scala-sbt\sbt\1.2.1\jars\sbt.jar
+
+==== local-preloaded-ivy: tried
+
+file:/C:/Users/s138093/.sbt/preloaded/org.scala-sbt/sbt/1.2.1/ivys/ivy.xml
+
+==== local-preloaded: tried
+
+file:/C:/Users/s138093/.sbt/preloaded/org/scala-sbt/sbt/1.2.1/sbt-1.2.1.pom
+
+-- artifact org.scala-sbt#sbt;1.2.1!sbt.jar:
+
+file:/C:/Users/s138093/.sbt/preloaded/org/scala-sbt/sbt/1.2.1/sbt-1.2.1.jar
+
+==== Maven Central: tried
+
+https://repo1.maven.org/maven2/org/scala-sbt/sbt/1.2.1/sbt-1.2.1.pom
+
+-- artifact org.scala-sbt#sbt;1.2.1!sbt.jar:
+
+https://repo1.maven.org/maven2/org/scala-sbt/sbt/1.2.1/sbt-1.2.1.jar
+
+==== sbt-maven-releases: tried
+
+https://repo.scala-sbt.org/scalasbt/maven-releases/org/scala-sbt/sbt/1.2.1/sbt-1.2.1.pom
+
+-- artifact org.scala-sbt#sbt;1.2.1!sbt.jar:
+
+https://repo.scala-sbt.org/scalasbt/maven-releases/org/scala-sbt/sbt/1.2.1/sbt-1.2.1.jar
+
+==== sbt-maven-snapshots: tried
+
+https://repo.scala-sbt.org/scalasbt/maven-snapshots/org/scala-sbt/sbt/1.2.1/sbt-1.2.1.pom
+
+-- artifact org.scala-sbt#sbt;1.2.1!sbt.jar:
+
+https://repo.scala-sbt.org/scalasbt/maven-snapshots/org/scala-sbt/sbt/1.2.1/sbt-1.2.1.jar
+
+==== typesafe-ivy-releases: tried
+
+https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt/1.2.1/ivys/ivy.xml
+
+==== sbt-ivy-snapshots: tried
+
+https://repo.scala-sbt.org/scalasbt/ivy-snapshots/org.scala-sbt/sbt/1.2.1/ivys/ivy.xml
+
+::::::::::::::::::::::::::::::::::::::::::::::
+
+::          UNRESOLVED DEPENDENCIES         ::
+
+::::::::::::::::::::::::::::::::::::::::::::::
+
+:: org.scala-sbt#sbt;1.2.1: not found
+
+::::::::::::::::::::::::::::::::::::::::::::::
+
+
+:::: ERRORS
+Server access Error: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target url=https://repo1.maven.org/maven2/org/scala-sbt/sbt/1.2.1/sbt-1.2.1.pom
+
+Server access Error: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target url=https://repo1.maven.org/maven2/org/scala-sbt/sbt/1.2.1/sbt-1.2.1.jar
+
+Server access Error: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target url=https://repo.scala-sbt.org/scalasbt/maven-releases/org/scala-sbt/sbt/1.2.1/sbt-1.2.1.pom
+
+Server access Error: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target url=https://repo.scala-sbt.org/scalasbt/maven-releases/org/scala-sbt/sbt/1.2.1/sbt-1.2.1.jar
+
+Server access Error: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target url=https://repo.scala-sbt.org/scalasbt/maven-snapshots/org/scala-sbt/sbt/1.2.1/sbt-1.2.1.pom
+
+Server access Error: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target url=https://repo.scala-sbt.org/scalasbt/maven-snapshots/org/scala-sbt/sbt/1.2.1/sbt-1.2.1.jar
+
+Server access Error: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt/1.2.1/ivys/ivy.xml
+
+Server access Error: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target url=https://repo.scala-sbt.org/scalasbt/ivy-snapshots/org.scala-sbt/sbt/1.2.1/ivys/ivy.xml
+
+
+:: USE VERBOSE OR DEBUG MESSAGE LEVEL FOR MORE DETAILS
+unresolved dependency: org.scala-sbt#sbt;1.2.1: not found
+(see C:\Users\s138093\.sbt\boot\update.log for complete log)
+Error during sbt execution: Error retrieving required libraries
+Error: Could not retrieve sbt 1.2.1
